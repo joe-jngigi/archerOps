@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name ="color-scheme" content="dark">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./CSS/utilities.css">
+  <link rel="stylesheet" href="./CSS/index.css">
+  
+  <title>Dummy cloud Host | Brad Traversy</title>
+</head>
+<body class="bg-image">
+  <!-- Navbar -->
+  <div class="navBar">
+    <!--Make container flexbox-container so it will make its contents as 
+    flexbox items to allign them however we want; Add a utility class flex -->
+    <div class="container flex">
+      <h1 class="logo">AcherOps.</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="docs.html">Docs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!--HEADER-->
+  <section class="docs-head bg-primary py-3">
+      <div class="container grid">
+          <div>
+              <h1 class="xl">Docs</h1>
+              <p class="lead">
+                Learn how to work with ArcherOps
+            </p>
+          </div>
+          <img src="./Resources/docs.png" alt="Server image">         
+      </div>
+  </section>
+
+  <!--DOCS MAIN-->
+  <section class="docs-main my-4">
+      <div class="container grid">
+          <div class="card bg-other p-3">
+              <h3 class="my-2">Essentails</h3>
+              <nav>
+                  <ul>
+                      <li><a href="#">Introduction</a></li>
+                      <li><a href="#">About archerOps</a></li>
+                      <li><a href="#">Installations</a></li>
+                  </ul>
+              </nav>
+
+              <h3 class="my-2">Deployment</h3>
+              <nav>
+                  <ul>
+                      <li><a href="#">Setting up the container</a></li>
+                      <li><a href="#">Using the CLI</a></li>
+                      <li><a href="#">Managing the resources</a></li>
+                      <li><a href="#">Downgrading and upgrading</a></li>
+                  </ul>
+              </nav>
+          </div>
+          <div class="card">
+            <h2>Introduction</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam eos accusamus nulla vitae nemo culpa dolorem
+                deserunt perferendis consequuntur suscipit eius, eligendi
+                dolor obcaecati a aspernatur perspiciatis tempora modi
+                officia?
+            </p>
+            <div class="alert alert-success">
+              <i class="fas fa-info"></i>
+              Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit.
+            </div>
+  
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, odit? Consectetur autem est natus perferendis, 
+              harum veniam ad earum sed ipsum totam, ullam quaerat, 
+              atque rem impedit eveniet dignissimos sequi.
+            </p>
+            <a href="#" class="btn btn-primary">Install CLI</a>
+  
+            <h3>Requirements</h3>
+            <ul>
+              <li>Windows 10, Mac OSX, Linux</li>
+              <li>NodeJS or higher</li>
+            </ul>
+  
+            <h3>Install</h3>
+            <p>Mac(Homebrew)</p>
+            <pre><code>$ brew install acherops-cli</code></pre>
+            <p>NPM</p>
+            <pre><code>$ npm install acherops-cli</code></pre>
+            <p>Yarn</p>
+            <pre><code>$ yarn install acherops-cli</code></pre>
+        </div>
+      </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="footer bg-primary py-5">
+    <div class="container grid grid-3">
+      <div>
+        <h1>archerOps</h1>
+        <p>Copyright &copy;2022</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="docs.html">Docs</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
